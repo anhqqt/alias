@@ -1,0 +1,57 @@
+# DIR ALIAS
+alias data='cd /Volumes/DATA'
+alias devops='cd /Volumes/DATA/DevOps'
+alias terraform='cd /Volumes/DATA/DevOps/Personal/terraform'
+alias workspaces='cd /Volumes/DATA/DevOps/Personal/terraform/workspaces'
+alias modules='cd /Volumes/DATA/DevOps/Personal/terraform/modules'
+alias argocd='cd /Volumes/DATA/DevOps/Personal/argocd'
+alias helm='cd /Volumes/DATA/DevOps/Personal/helm'
+alias desktop='cd ~/Desktop'
+alias ..2='cd ../..'
+alias ..3='cd ../../..'
+
+# GIT ALIAS
+alias g='git'
+alias ga='git add'
+alias gaa='git add --all'
+alias gb='git branch'
+alias gd='git diff'
+alias gs='git status'
+alias gph='git push'
+alias gpl='git pull'
+alias gf='git fetch'
+alias gm='git merge'
+alias gco='git checkout'
+alias gl='git log'
+alias gcl='git clone'
+
+# LS ALIAS
+alias l='ls -CF'
+alias ls='ls --color=auto -CF'
+alias ll='ls -lh'
+alias lla='ls -lha'
+alias la='ls -a'
+
+# CONFIRM ALIAS
+alias mv='mv -i'
+alias cp='cp -i'
+
+# TMUX ALIAS
+alias tmux='tmux -2'
+alias ta='tmux attach -t'
+
+# DOCKER ALIAS
+alias d='docker'
+
+# ARCHIVE ALIAS
+untar='tar xvf'
+tar='tar zxvf'
+
+# OTHER ALIAS
+alias du='du -h'
+alias free='free -h'
+alias c='clear'
+alias mkdir='mkdir -p'
+alias h='history'
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias zshconfig="code ~/.zshrc"
