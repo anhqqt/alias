@@ -8,9 +8,9 @@
 # alias helmdir='cd /Volumes/DATA/DevOps/Personal/helm'
 
 # KATALON DIR ALIAS
-# alias data='cd /Volumes/Macintosh HD/Users/anh.quach/Data'
-# alias katalon='cd /Volumes/Macintosh HD/Users/anh.quach/Data/Katalon'
-# alias devops='cd /Volumes/Macintosh HD/Users/anh.quach/Data/Katalon/DevOps'
+# alias data='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data'
+# alias katalon='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon'
+# alias devops='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon/DevOps'
 
 # OTHER DIR ALIAS
 alias desktop='cd ~/Desktop'
