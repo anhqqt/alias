@@ -1,7 +1,7 @@
 # DIR ALIAS
 alias data='cd /Volumes/DATA'
 alias devops='cd /Volumes/DATA/DevOps'
-alias tf='cd /Volumes/DATA/DevOps/Personal/terraform'
+alias tfdir='cd /Volumes/DATA/DevOps/Personal/terraform'
 alias tfws='cd /Volumes/DATA/DevOps/Personal/terraform/workspaces'
 alias tfmd='cd /Volumes/DATA/DevOps/Personal/terraform/modules'
 alias argodir='cd /Volumes/DATA/DevOps/Personal/argocd'
