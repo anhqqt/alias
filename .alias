@@ -1,11 +1,22 @@
-# DIR ALIAS
-alias data='cd /Volumes/DATA'
-alias devops='cd /Volumes/DATA/DevOps'
-alias tfdir='cd /Volumes/DATA/DevOps/Personal/terraform'
-alias tfws='cd /Volumes/DATA/DevOps/Personal/terraform/workspaces'
-alias tfmd='cd /Volumes/DATA/DevOps/Personal/terraform/modules'
-alias argodir='cd /Volumes/DATA/DevOps/Personal/argocd'
-alias helmdir='cd /Volumes/DATA/DevOps/Personal/helm'
+# Function
+function base64enc() { echo -n $1 | base64 }
+function base64dec() { echo -n $1 | base64 --decode }
+
+# PERSONAL DIR ALIAS
+# alias data='cd /Volumes/DATA'
+# alias devops='cd /Volumes/DATA/DevOps'
+# alias tfdir='cd /Volumes/DATA/DevOps/Personal/terraform'
+# alias tfws='cd /Volumes/DATA/DevOps/Personal/terraform/workspaces'
+# alias tfmd='cd /Volumes/DATA/DevOps/Personal/terraform/modules'
+# alias argodir='cd /Volumes/DATA/DevOps/Personal/argocd'
+# alias helmdir='cd /Volumes/DATA/DevOps/Personal/helm'
+
+# KATALON DIR ALIAS
+# alias data='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data'
+# alias katalon='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon'
+# alias devops='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon/DevOps'
+
+# OTHER DIR ALIAS
 alias desktop='cd ~/Desktop'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
@@ -52,6 +63,6 @@ alias du='du -h'
 alias free='free -h'
 alias c='clear'
 alias mkdir='mkdir -p'
-alias h='history'
+alias h='history | fzf'
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias zshconfig="code ~/.zshrc"
