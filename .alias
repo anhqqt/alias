@@ -1,3 +1,7 @@
+# Function
+function base64enc() { echo -n $1 | base64 }
+function base64dec() { echo -n $1 | base64 --decode }
+
 # PERSONAL DIR ALIAS
 # alias data='cd /Volumes/DATA'
 # alias devops='cd /Volumes/DATA/DevOps'
