@@ -1,27 +1,27 @@
-# Function
+## Function
 function base64enc() { echo -n $1 | base64 }
 function base64dec() { echo -n $1 | base64 --decode }
 
-# PERSONAL DIR ALIAS
-# alias data='cd /Volumes/DATA'
-# alias devops='cd /Volumes/DATA/DevOps'
-# alias tfdir='cd /Volumes/DATA/DevOps/Personal/terraform'
-# alias tfws='cd /Volumes/DATA/DevOps/Personal/terraform/workspaces'
-# alias tfmd='cd /Volumes/DATA/DevOps/Personal/terraform/modules'
-# alias argodir='cd /Volumes/DATA/DevOps/Personal/argocd'
-# alias helmdir='cd /Volumes/DATA/DevOps/Personal/helm'
+## PERSONAL DIR ALIAS
+alias data='cd /Volumes/DATA'
+alias devops='cd /Volumes/DATA/DevOps'
+alias tfdir='cd /Volumes/DATA/DevOps/Personal/terraform'
+alias tfws='cd /Volumes/DATA/DevOps/Personal/terraform/workspaces'
+alias tfmd='cd /Volumes/DATA/DevOps/Personal/terraform/modules'
+alias argodir='cd /Volumes/DATA/DevOps/Personal/argocd'
+alias helmdir='cd /Volumes/DATA/DevOps/Personal/helm'
 
-# KATALON DIR ALIAS
+## KATALON DIR ALIAS
 # alias data='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data'
 # alias katalon='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon'
 # alias devops='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon/DevOps'
 
-# OTHER DIR ALIAS
+## OTHER DIR ALIAS
 alias desktop='cd ~/Desktop'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
 
-# GIT ALIAS
+## GIT ALIAS
 alias g='git'
 alias ga='git add'
 alias gaa='git add --all'
@@ -36,29 +36,29 @@ alias gco='git checkout'
 alias gl='git log'
 alias gcl='git clone'
 
-# LS ALIAS
+## LS ALIAS
 alias l='ls -CF'
 alias ls='ls --color=auto -CF'
 alias ll='ls -lh'
 alias lla='ls -lha'
 alias la='ls -a'
 
-# CONFIRM ALIAS
+## CONFIRM ALIAS
 alias mv='mv -i'
 alias cp='cp -i'
 
-# TMUX ALIAS
+## TMUX ALIAS
 alias tmux='tmux -2'
 alias ta='tmux attach -t'
 
-# DOCKER ALIAS
+## DOCKER ALIAS
 alias d='docker'
 
-# ARCHIVE ALIAS
+## ARCHIVE ALIAS
 untar='tar xvf'
 tar='tar zxvf'
 
-# OTHER ALIAS
+## OTHER ALIAS
 alias du='du -h'
 alias free='free -h'
 alias c='clear'
@@ -66,3 +66,4 @@ alias mkdir='mkdir -p'
 alias h='history | fzf'
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias zshconfig="code ~/.zshrc"
+alias p10kconfig="code ~/.p10k.zsh"
