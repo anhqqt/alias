@@ -4,17 +4,22 @@ function base64dec() { echo -n $1 | base64 --decode }
 
 ## PERSONAL DIR ALIAS
 alias data='cd /Volumes/DATA'
-alias devops='cd /Volumes/DATA/DevOps'
-alias tfdir='cd /Volumes/DATA/DevOps/Personal/terraform'
-alias tfws='cd /Volumes/DATA/DevOps/Personal/terraform/workspaces'
-alias tfmd='cd /Volumes/DATA/DevOps/Personal/terraform/modules'
-alias argodir='cd /Volumes/DATA/DevOps/Personal/argocd'
-alias helmdir='cd /Volumes/DATA/DevOps/Personal/helm'
+alias pdevops='cd /Volumes/DATA/DevOps'
+alias ptf='cd /Volumes/DATA/DevOps/Personal/terraform'
+alias ptfws='cd /Volumes/DATA/DevOps/Personal/terraform/workspaces'
+alias ptfmd='cd /Volumes/DATA/DevOps/Personal/terraform/modules'
+alias pgitops='cd /Volumes/DATA/DevOps/Personal/argocd'
+alias phelm='cd /Volumes/DATA/DevOps/Personal/helm'
+
+## TILLX DIR ALIAS
+alias tx='cd /Volumes/DATA/Oolio'
+alias txdevops='cd /Volumes/DATA/Oolio/DevOps'
+alias txgitops='cd /Volumes/DATA/Oolio/DevOps/GitOps'
 
 ## KATALON DIR ALIAS
-# alias data='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data'
-# alias katalon='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon'
-# alias devops='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon/DevOps'
+# alias kdata='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data'
+# alias k='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon'
+# alias kdevops='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data/Katalon/DevOps'
 
 ## OTHER DIR ALIAS
 alias desktop='cd ~/Desktop'
