@@ -4,8 +4,8 @@
 function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
 
 # Enable plugins
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.oh-my-zsh/custom/plugins/you-should-use/you-should-use.plugin.zsh
 export YSU_MESSAGE_POSITION="after"
 
