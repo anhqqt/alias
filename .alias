@@ -16,9 +16,9 @@ alias tx='cd /Volumes/DATA/Oolio'
 alias txdevops='cd /Volumes/DATA/Oolio/DevOps'
 alias txgitops='cd /Volumes/DATA/Oolio/DevOps/GitOps'
 
-## KATALON PERSONAL DIR ALIAS
-# alias k='cd /Volumes/DATA/Katalon'
-# alias kdevops='cd /Volumes/DATA/Katalon/DevOps'
+# KATALON PERSONAL DIR ALIAS
+alias k='cd /Volumes/DATA/Katalon'
+alias kdevops='cd /Volumes/DATA/Katalon/DevOps'
 
 ## KATALON DIR ALIAS
 # alias kdata='cd /Volumes/Macintosh\ HD/Users/anh.quach/Data'

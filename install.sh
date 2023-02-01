@@ -19,12 +19,12 @@ curl -o ~/Library/Fonts/MesloLGS NF Bold Italic.ttf https://raw.githubuserconten
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Copy my .zshrc
-rm -rf .zshrc
-cp alias/.zshrc .zshrc
+rm -rf ~/.zshrc
+cp ~/alias/.zshrc ~/.zshrc
 
 # Copy .p10k.zsh
-rm -rf .p10k.zsh
-cp alias/.p10k.zsh .p10k.zsh
+rm -rf ~/.p10k.zsh
+cp ~/alias/.p10k.zsh ~/.p10k.zsh
 
 # Install zsh-autosuggestion
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -34,3 +34,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 # Install zsh-you-should-get
 git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
+
+# Config SSH
+mkdir .ssh
+cp ~/alias/ssh_config ~/.ssh/config
+
+# Get Katalon SSH Public Key
+op read --account 5PKS2C7FJFHRJK4UVQ257PZ6QU op://private/xdv5fjwaint2xamugq7427lale/public_key > ~/.ssh/katalon-ssh-key.pub
