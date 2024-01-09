@@ -41,9 +41,38 @@ alias gph='git push'
 alias gpl='git pull'
 alias gf='git fetch'
 alias gm='git merge'
-alias gco='git checkout'
+alias gcho='gcho'
+function gcho() {
+  local branches branch
+  branches=$(git branch -a | awk '{print $1}') &&
+  branch=$(echo "$branches" | fzf +s +m) &&
+  git checkout $(echo "$branch" | sed "s/.* //" | sed "s/^remotes\/origin\///")
+}
 alias gl='git log'
 alias gcl='git clone'
+alias kgcl='kgcl'
+function kgcl() {
+  URL="${1}"
+
+  git clone ${URL}
+
+  cd $(basename ${URL} | cut -f 1 -d '.')
+
+  git config user.name "Anh Quach (Tony)"
+  git config user.email "anh.quach@katalon.com"
+}
+alias pgcl='pgcl'
+function pgcl() {
+  URL="${1}"
+  REPLACED_URL=${URL/github.com/katalon.github.com}
+
+  git clone ${REPLACED_URL}
+
+  cd $(basename ${REPLACED_URL} | cut -f 1 -d '.')
+
+  git config user.name "Anh Quach"
+  git config user.email "tuananh.qaa@gmail.com"
+}
 
 ## LS ALIAS
 alias l='ls -CF'

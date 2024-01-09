@@ -41,3 +41,4 @@ cp ~/alias/ssh_config ~/.ssh/config
 
 # Get Katalon SSH Public Key
 op read --account 5PKS2C7FJFHRJK4UVQ257PZ6QU op://private/xdv5fjwaint2xamugq7427lale/public_key > ~/.ssh/katalon-ssh-key.pub
+op read --account J3ZTR5D3OBCZNGNARNNO4QZEJE op://private/2u27dcf5ega7qje5vzlo4mnpre/public_key > ~/.ssh/personal-ssh-key.pub
